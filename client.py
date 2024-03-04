@@ -5,7 +5,7 @@ import rsa
 import os
 
 DB_PATH = "db/ac.db"
-SERVER = "10.10.1.81"
+SERVER = "localhost"
 PORT = 1337
 
 #Summary: Clear the console

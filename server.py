@@ -24,7 +24,7 @@ def handle(client):
 #Summary: Main function that runs continously
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(("10.10.1.81", 1337))
+    server.bind(("localhost", 1337))
     while True:
         try:
             server.listen()
